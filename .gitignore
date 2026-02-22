@@ -1,0 +1,58 @@
+# =====================
+# Frontend / Web
+# =====================
+
+# IDE / редактори
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Тимчасові файли / кеш
+*.tmp
+.cache/
+.history/
+
+# Build / output
+dist/
+build/
+
+# =====================
+# Python (Backend)
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# =====================
+# Node.js (якщо використовується)
+# =====================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =====================
+# Завантажені фото та медіа
+# =====================
+uploads/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# =====================
+# Конфіденційні налаштування
+# =====================
+.env
